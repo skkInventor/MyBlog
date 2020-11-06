@@ -1,0 +1,18 @@
+.img-box {
+    height : 45em;
+    background-image : url('pic1.jpeg');
+    filter : brightness(80%);
+    background-size : cover;
+    background-position: center center;
+    object-fit: contain;
+}
+
+.img-content {
+    top : 3.5em;
+    left : 6em;
+    position : absolute;
+    font-size : 5em;
+    background : none;
+    color : #fff;
+    z-index : 1;
+}

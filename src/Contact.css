@@ -1,0 +1,19 @@
+.contact_box {
+    width : 100%;
+    position : relative;
+    top : 130em;
+}
+
+.contact_header {
+    font-size : 4em;
+    position : relative;
+    top : 0.5em;
+    margin-left : 9em;
+}
+
+.contact_content {
+    position : relative;
+    top : 10em;
+    display : flex;
+    justify-content: center;
+}
