@@ -1,0 +1,29 @@
+.book {
+    margin : 2em;
+    cursor : pointer;
+}
+
+.book img {
+    width : 150px;
+    height : 200px;
+    transition : all 0.5s;
+    box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+}
+
+.book img:hover{
+    transform : scale(1.1);
+}
+
+.book-content {
+    display : none;
+    transition : all 0.5s;
+}
+
+.book img:hover + .book-content {
+    display : flex;
+    width : 150px;
+    background : none;
+    display : flex;
+    justify-content: center;
+    padding-top : 1.3em;
+}
