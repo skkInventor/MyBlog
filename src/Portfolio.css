@@ -11,9 +11,74 @@
     margin-left : 9.5em;
 }
 
-.portfolio_content {
+.portfolio1_image {
     position : relative;
     top : 10em;
+    left : 17em;
     display : flex;
     justify-content: center;
+    background : url('portfolio1.png');
+    background-size : cover;
+    width : 25em;
+    height : 15em;
+    transition : all 0.5s;
+    border-radius : 1em;
+    cursor : pointer;
+    box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+}
+
+.portfolio1_image:hover {
+    opacity: 0.5;
+    transform : scale(1.1);
+}
+
+.portfolio1_content {
+    visibility: hidden;
+    position : relative;
+    font-size : 2em;
+    left : 12em;
+    top : 0.5em;
+    background : none;
+    text-decoration : none;
+    color : black;
+}
+
+.portfolio1_image:hover ~ .portfolio1_content {
+    visibility: visible;
+}
+
+.portfolio2_image {
+    position : relative;
+    top : -7.5em;
+    left : 47em;
+    display : flex;
+    justify-content: center;
+    background : url('portfolio2.png');
+    background-size : cover;
+    width : 25em;
+    height : 15em;
+    transition : all 0.5s;
+    border-radius : 1em;
+    cursor : pointer;
+    box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+}
+
+.portfolio2_image:hover {
+    opacity: 0.5;
+    transform : scale(1.1);
+}
+
+.portfolio2_content {
+    visibility: hidden;
+    position : relative;
+    font-size : 2em;
+    left : 28em;
+    top : -8em;
+    background : none;
+    text-decoration : none;
+    color : black;
+}
+
+.portfolio2_image:hover ~ .portfolio2_content {
+    visibility: visible;
 }

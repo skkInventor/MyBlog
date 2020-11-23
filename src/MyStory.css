@@ -17,3 +17,31 @@
     display : flex;
     justify-content: center;
 }
+
+.mystory1 {
+    background : url('mystory1.png');
+    box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+    background-size : cover;
+    width : 15em;
+    height : 15em;
+    border-radius : 2em;
+    cursor : pointer;
+    transition : all 0.5s;
+}
+
+.mystory1:hover {
+    opacity : 0.5;
+    transform : scale(1.1);
+}
+
+.mystory1_content {
+    visibility: hidden;
+    position : absolute;
+    background : none;
+    font-size : 2em;
+    top : 3em;
+}
+
+.mystory1:hover ~ .mystory1_content {
+    visibility: visible;
+}

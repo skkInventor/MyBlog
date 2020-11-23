@@ -41,6 +41,10 @@
     background : none;
 }
 
+a {
+    background : none;
+}
+
 .bar-content:hover {
     cursor : pointer;
     color : salmon;

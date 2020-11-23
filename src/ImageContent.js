@@ -4,7 +4,7 @@ import './ImageContent.css'
 
 function ImageContent() {
     return(
-        <div>
+        <div id = 'home'>
             <Navigation />
             <div className = "img-content">장재성의 블로그</div>
             <div className = "img-box">

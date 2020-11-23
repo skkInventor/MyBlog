@@ -13,7 +13,58 @@
 
 .contact_content {
     position : relative;
-    top : 10em;
+    top : 3em;
     display : flex;
     justify-content: center;
+}
+
+.contact_content a {
+    margin-left : 2em;
+}
+
+.facebook {
+    background-image : url('facebook_logo1.png');
+    width : 3em;
+    height : 3em;
+    background-size : cover;
+    cursor : pointer;
+}
+
+.facebook:hover {
+    background-image : url('facebook_logo2.png');
+    width : 3em;
+    height : 3em;
+    background-size : cover; 
+}
+
+.instagram {
+    background-image : url('instagram_logo1.png');
+    width : 3em;
+    height : 3em;
+    background-size : cover;
+    cursor : pointer;
+}
+
+.instagram:hover {
+    background-image : url('instagram_logo2.png');
+    position : relative;
+    right : 0.2em;
+    width : 3em;
+    height : 3em;
+    background-size : cover;
+}
+
+.linkedin {
+    background-image : url('linkedin_logo1.png');
+    width : 3em;
+    height : 3em;
+    background-size : cover;
+    cursor : pointer;
+}
+
+.linkedin:hover {
+    background-image : url('linkedin_logo2.png');
+    width : 3em;
+    height : 3em;
+    background-size : cover;
 }
